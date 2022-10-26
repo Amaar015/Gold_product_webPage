@@ -6,7 +6,11 @@
                     background: #1c1616;
                   
                   }
-                
+                  section{
+                    padding:2rem 9%;
+                  }
+                  
+                  
     .btn{
       background: transparent;
       font-size: 1.4rem;
@@ -14,13 +18,13 @@
       margin-top:-0.2rem;
       width:6rem;
       height: 2.5rem;
-      border:0.18rem solid #fee140;
+      border:0.18rem solid  #edc967;
       border-radius: 4px;
       cursor: pointer;
       transition: all 0.3s ease-out;
     }
     .btn:hover{
-      color: #fee140;
+      color:  #edc967;
     }
 
                   .flexSB{
@@ -63,7 +67,7 @@
                     
    }
    .navbar ul li a:hover{
-                    color: #fee140;
+                    color: #edc967;
    }
    
    
@@ -78,11 +82,22 @@
               flex-wrap: wrap;
               justify-content: center;
               align-items: center;
-              padding:4rem 6rem;
-              margin-left: 6rem;
-              margin-right: 6rem;
-              border:4px solid gray;
+              width: 100%;  
+              padding:0rem 6rem;
+                
             }
+             
+            
+  .swiper-slide {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%!important;
+    justify-content: center;
+    align-items: center;
+    padding:4rem 1rem;
+    border:4px solid gray;
+  
+  }
              .content{
               flex: 1 1 30rem;
               color: #fff;
@@ -94,7 +109,7 @@
               line-height:4rem;
              }
              .content h1 span{
-                    color: #fee140;
+                    color: #edc967;
              }
              .content p{
               padding-top:2rem;
@@ -110,7 +125,8 @@
              }
              .image img{
               width: 100%;
-              height: 100%;
+              height: 25rem;
+              object-fit: cover;
              }
                
    @media(max-width:786px) {
@@ -122,7 +138,7 @@
                 }    
                 .navbar{
                     margin: 0;
-                    background-color: #2ba84a;
+                    background-color:#111;
                     position: relative;
                     
                   }
@@ -147,7 +163,8 @@
                     top: 11.5vh;
                     left: 0;
                     width: 100%;
-                    background-color:#1c1616;
+                    color: #fff;
+                    background-color:#111;
                     flex-direction: column;
                     text-align: center;
                 }
@@ -163,6 +180,10 @@
                 button{
                     border: none;
                 }
+                
+          .home {
+            padding:0rem 2rem;
+          }
                }
                
                @media screen and (min-width:400px)
@@ -187,3 +208,197 @@ padding: 40px 0rem;
 }
     
    }
+
+   /* Slideer */
+@media screen and (max-width:1193px) {
+  .content{
+    flex: 1 1 20rem;
+   
+   }
+   
+   .image{
+     flex: 1 1 25rem;
+   }
+   .image img{
+    margin-left: 1rem;
+    /* width: 85%; */
+   }
+  
+}
+
+@media screen and (max-width:1024px) {
+  .content{
+    flex: 1 1 30rem;
+   
+   }
+   
+   .image{
+     flex: 1 1 30rem;
+   }
+ 
+  
+  
+}
+
+  
+  @media screen and (max-width:525px){
+    .content{
+      flex: 1 1 20rem;
+    }
+    .content h1{
+      font-size: 2.8rem;
+     }
+      .content p{
+      padding-top:2rem;
+      width: 24rem;
+     }
+     /* .content .btn{
+          width: 10rem;
+          height: 3.2rem;
+          margin-top: 1.5rem;
+     } */
+     .image{
+       flex: 1 1 20rem;
+     }
+     .image img{
+      width: 100%;
+      height: 20rem;
+      object-fit: cover;
+     } 
+  }
+
+  
+  @media screen and (max-width:460px){
+    
+    .content h1{
+      font-size: 2rem;
+      line-height: 2rem;
+     }
+      .content p{
+      padding-top:1.5rem;
+      width: 20rem;
+     }
+     .content .btn{
+          width: 8rem;
+          height: 3.2rem;
+          margin-top: 1.1rem;
+     }
+     .image{
+       flex: 1 1 20rem;
+     }
+     .image img{
+      width: 100%;
+      height: 15rem;
+      object-fit: cover;
+     } 
+  }
+
+  @media screen and (max-width:400px) {
+           .home{
+            padding:0rem 0rem;
+           }
+  }
+
+  @media screen and (max-width:330px){
+    
+    .content h1{
+      font-size: 1.5rem;
+      line-height: 2rem;
+     }
+      .content p{
+      padding-top:1.2rem;
+      width: 17rem;
+     }
+     .content .btn{
+          width: 9rem;
+          height: 3.2rem;
+          margin-top: 1rem;
+     }
+     .image{
+       flex: 1 1 20rem;
+     }
+     .image img{
+      width: 100%;
+      height: 15rem;
+      object-fit: cover;
+     } 
+  }
+
+
+
+  /* Shop section */
+  .heading{
+            text-align: center;
+            color: #fff;
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-weight: 500;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    padding:1rem 4rem;
+    gap: 1rem;
+  }
+  .container .box{
+      flex: 1 1 10rem;
+      text-align: center;
+      height: 20rem;
+      border:0.2rem solid #1c1616;
+      background: #1c1616;
+      transition: all 0.4s ease-out;
+  }
+
+
+  .container .box img{
+              width: 90%;
+              height: 60%;
+              transition: all 0.4s ease-out;
+  }
+  
+  .container .box h2{
+       color: #fff;
+       font-weight: 500;
+       transition: all 0.4s ease-out;
+  }
+   .container .box p{
+       color: #edc967;
+       font-size: 1.5rem;
+       margin-top:-0.7rem;
+       transition: all 0.4s ease-out;
+   }
+   .container .box .btn{
+    width:8rem;
+    height: 2.4rem;
+    margin-top:1rem ;
+   }
+   .container .box:hover,
+   .container .box:hover img,
+   .container .box:hover h2,
+   .container .box:hover p
+   {
+    background: #0c0909;
+}
+.container .box:hover{
+  border:0.1rem solid #edc967;
+  border-radius:4px;
+}
+
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding:2rem 6rem;
+}
+
+.about_container{
+         flex:1 1 30rem;
+}
+.about .image{
+  flex: 1 1 30rem;
+}
+.about .image img{
+        width: 100%;
+        height: 100%;
+}
