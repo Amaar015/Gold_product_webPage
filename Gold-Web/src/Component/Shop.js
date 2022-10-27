@@ -6,9 +6,9 @@ import pro_4 from './Images/pro-4.png';
 
 const Shop = () => {
   return (
-   <section className="shop">
+   <section className="shop" data-aos="zoom-out">
             <h1 className='heading'>Our Shop</h1>
-            <div className="container">
+            <div className="container" >
                    <div className="box">
                         <img src={pro_1} alt="" />
                         <h2>Gold Watch</h2>

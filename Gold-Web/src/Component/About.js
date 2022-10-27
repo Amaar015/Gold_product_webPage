@@ -3,7 +3,7 @@ import about from './Images/home1.png';
 const About = () => {
   return (
 
-         <section className='about'>
+         <section className='about' data-aos="zoom-in">
                         <div className="image">
                                <img src={about} alt="" />      
                         </div>

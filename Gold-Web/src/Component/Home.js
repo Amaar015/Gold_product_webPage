@@ -15,6 +15,9 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import Shop from "./Shop";
 import About from "./About";
+import Brand from './Brand';
+import News from "./News";
+import Footer from "./Footer";
 const Home = () => {
   return (
          <>
@@ -89,6 +92,9 @@ const Home = () => {
       </div>
         <Shop/>
         <About/>
+        <Brand/>
+        <News/>
+        <Footer/>
          </>
                     )
 }
