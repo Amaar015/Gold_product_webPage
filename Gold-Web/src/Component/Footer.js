@@ -14,6 +14,10 @@ const Footer = () => {
                        <div className="footer_box">
                               <h2>Useful Link</h2>
                                   <small>Home</small>
+                                  <small>Home</small>
+                                  <small>Home</small>
+                                  <small>Home</small>
+                                  <small>Home</small>
                        </div>
                        <div className="footer_box">
                                         
