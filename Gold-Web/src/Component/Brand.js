@@ -3,7 +3,7 @@ import image from './Images/pro-4.png';
 import {BiRightArrowAlt} from 'react-icons/bi';
 const Brand = () => {
   return (
-  <div className="brand">
+  <div className="brand" data-aos="fade-right">
                 <h1 className='heading'>Brand Gold</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore qui, 
                     accusamus sed itaque iste et voluptas eum perferendis totam assumenda!</p>

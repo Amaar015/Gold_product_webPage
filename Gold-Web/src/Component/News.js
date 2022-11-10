@@ -2,7 +2,7 @@ import React from 'react'
 import news from './Images/home1.png';
 const News = () => {
   return (
-     <div className="news">
+     <div className="news" data-aos="fade-left">
                     <div className="container">
                     <div className="news_content">
                                       
